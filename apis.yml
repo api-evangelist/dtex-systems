@@ -1,8 +1,30 @@
 aid: dtex-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dtex-systems.png
 name: Dtex Systems
-description: Dtex Systems is a company surfaced as a portfolio company of wing-venture-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  DTEX Systems (dtex.ai) is a risk-adaptive cybersecurity company delivering an
+  enterprise Insider Risk Management platform that unifies human, data, and AI
+  risk through behavioral intelligence. Its InTERCEPT platform combines
+  lightweight endpoint telemetry, user activity monitoring, and data loss
+  prevention with privacy-by-design pseudonymization to detect insider threats
+  and prevent data breaches early. DTEX Platform v7 adds OCSF-aligned,
+  cloud-to-cloud connectors and autonomous "agentic defender" AI agents (Triage
+  Guardian, Threat Hunter) that investigate incidents, while the company's i3
+  investigative division provides expert insider-threat research. DTEX integrates
+  with SIEM, SOAR, EDR, IdP, and productivity tools (Splunk, CrowdStrike,
+  Microsoft 365, Netskope, Google Workspace) rather than exposing a public
+  developer API. Backed by Wing Venture Capital.
 url: https://raw.githubusercontent.com/api-evangelist/dtex-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cybersecurity
+- Insider Risk Management
+- Data Loss Prevention
+- User Activity Monitoring
+- Behavioral Intelligence
+- Threat Detection
+- Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +52,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.dtexsystems.com/
+  url: https://www.dtex.ai/
+- type: Blog
+  url: https://www.dtex.ai/blog/
+- type: Support
+  url: https://www.dtex.ai/contact-us/
+- type: SignUp
+  url: https://www.dtex.ai/request-a-demo/
+- type: PrivacyPolicy
+  url: https://www.dtex.ai/privacy-policy/
+- type: Integrations
+  url: https://www.dtex.ai/integrations/
+- type: TrustCenter
+  url: https://trust.dtex.ai/
+- type: DomainSecurity
+  url: security/dtex-systems-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

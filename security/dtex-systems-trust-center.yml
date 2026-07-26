@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+source: https://trust.dtex.ai/
+url: https://trust.dtex.ai/
+# The DTEX Trust Center is a live, JavaScript-rendered portal (titled "DTEX Trust
+# Center"). Its certification list is gated behind the portal UI and was not
+# machine-readable this pass, so no specific certifications are asserted here to
+# avoid fabrication. Update `certifications` once verified against the live portal.
+certifications: []
+notes: >-
+  DTEX markets privacy-by-design telemetry and GDPR-aligned controls; named
+  attestations (e.g. SOC 2 / ISO 27001) are expected on the trust portal but were
+  not verified in this pass.
+evidence:
+  - source: https://trust.dtex.ai/
+    kind: trust-center
+    keywords: [trust center, dtex trust center]
+  - source: https://www.dtex.ai/capabilities/privacy/
+    kind: compliance-claim
+    keywords: [gdpr, privacy-by-design]
